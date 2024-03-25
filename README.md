@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:18.03.2024
+## Date:25.03.2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -25,108 +25,110 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<html>
-     <head>
-              <title> web </title>
-     </head>
-     <body bgcolor="black" TEXT="white">
-<center>
-     <img src="/static/images/saveethalogo.png"  height="100" width="1000" align="center" /></center>
-          
-          <table border= "4" cellspacing="0px" cellpadding="10px" bgcolor=green" align="center" >
-          <CAPTION align=“top”> SLOT TIME TABLE - SUBASH R(212223230218) </CAPTION>
-          <br>
-          <br>
-               <tr> 
-               <th bgcolor="gray">   DAY/TIME </th>
-               <th bgcolor="purple">   MONDAY </th>
-               <th bgcolor="purple">   TUESDAY </th>
-               <th bgcolor="purple">   WEDNESDAY </th>
-               <th bgcolor="purple">   THURSDAY </th>
-               <th bgcolor="purple">   FRIDAY </th>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 8-10 </th>
-                <td> -- </td>
-                <td> C programming </td>
-                  <td> -- </td>
-                <td> FWAD </td>
-                <td> FWAD </td>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 10-12 </th>
-                <td> -- </td>
-                <td> DL </td>
-                <td> DIP </td>
-                <td> DIP </td>
-                <td> DL </td>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 12-1 </th>
-                 <td colspan="5" align="center">LUNCH TIME</td>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 1-3 </th>
-                <td> -- </td>
-                <td> -- </td>
-                <td> FWAD </td>
-                <td> -- </td>
-                <td> Physics/- </td>
-               </tr>
-               
-              
-              <tr>
-               <th bgcolor="purple"> 3-5 </th>
-               <td> Statictis </td>
-               <td> Physics </td>
-               <td> C Program </td> 
-               <td> -- </td> 
-               <td> Statictis </td>
-              </tr>
-           </table>
-            <table border= "4" cellspacing="0px" cellpadding="10px"  align="center" >
-           <tr>
-           <th> S.No </th>
-             <th> SUBJECT CODE </th>
-           <th> SUBJECT NAME </th>
-           </tr>
-           <tr> 
-           <td> 1. </td>
-           <td> 19AI414 </td>
-           <td> Fundamental of web application and development </td>
-           </tr>
-           <tr>
-           <td> 2. </td>
-           <td> 19AI406 </td>
-           <td> Digital Image Processing techniques </td>
-           </tr>
-           <tr>
-           <td> 3. </td>
-           <td> 19AI304 </td> 
-           <td> Fundamental of C programming </td>
-           </tr>
-           <tr>
-           <td> 4. </td>
-           <td> 19PH214 </td>
-           <td> Physics for quantum computing </td>
-           </tr>
-           <tr>
-           <td> 5. </td>
-           <td> 19AI413 </td>
-           <td> Deep Learning and Applications </td>
-           </tr>
-           <tr>
-           <td> 6. </td>
-           <td> 19MA211 </td>
-           <td> Statictis and Numerical Methods </td>
-           </tr>
-           </table>
-              
-        </body>
-</html>
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+    <img src="logo.png" height="70" width="550">
+    </center>
+    <title>Slot Timetabe</title>
+</head>
+ <body>
+    <table align="center" border="3" bordercolor="black" cellpadding="2" cellspacing="4">
+    <caption><h2>Slot Timetable-Subash R</h2></caption>
+    <tr bgcolor="aqua">
+    <th>Day/Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr bgcolor="#FF00FF">
+        <th bgcolor="aqua">8-10</th>
+        <td>Free Slot</td>
+        <td>Free Slot</td>
+        <td>Web</td>
+        <td>Free Slot</td>
+        <td>Free SLOT</td>
+        <td>Prob</td>
+    </tr>
+    <tr bgcolor="#FF00FF">
+        <th bgcolor="aqua">10-12</th>
+        <td>SE</td>
+        <td>Web</td>
+        <td>SE</td>
+        <td>Prob</td>
+        <td>Free Slot</td>
+        <td>Free Slot</td>
+    </tr>
+    <tr>
+        <th bgcolor="aqua">12-1</th>
+        <td colspan="6" align="center" bgcolor="#FF00FF">LUNCH</td>
+    </tr>
+    <tr bgcolor="#FF00FF">
+        <th bgcolor="aqua">1-3</th>
+        <td>Web</td>
+        <td>Phy</td>
+        <td>Phy</td>
+        <td>Free Slot</td>
+        <td>CN</td>
+        <td>Free Slot</td>
+    </tr>
+    <tr bgcolor="#FF00FF">
+        <th bgcolor="aqua">3-5</th>
+        <td>Free Slot</td>
+        <td>Free Slot</td>
+        <td>CN</td>
+        <td>Free Slot</td>
+        <td>Free Slot</td>
+        <td>Free Slot</td>
+    </tr>
+    </table>
+    <br>
+    <br>
+   <table border="5" align="center" bordercolor="black" cellpadding="3" cellspacing="3">
+    <tr>
+        <th>S.No</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>19AI414</td>
+        <td>Fundamental Of Web Application Development</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>19PH414</td>
+        <td>Physics For Quantum Computing</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>19CS406</td>
+        <td>Software Engineering</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>19CS408</td>
+        <td>Computer Networks</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>19MA222</td>
+        <td>Probability And Queueing Models</td>
+    </tr>
+   </table>
+
+
+ </body>
+ </html>
 ```
 ## OUTPUT
-![web](https://github.com/rsubash17/slot/assets/147139828/860c75f1-9bd9-42f8-972d-85d241ee15b3)
+![slot subhash](https://github.com/rsubash17/slot/assets/147139828/d07769f5-bc3e-41cf-8493-e221532eb08d)
 
 
 ## RESULT
